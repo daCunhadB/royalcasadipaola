@@ -162,14 +162,14 @@ Links
 
 #links2 {
   padding: 1rem;
-  gap: 1rem;
+  gap: 0.5rem;
   display: inline-flex;
 }
 
 #links2 a {
   display: inline-flex;
-  width: 16rem;
-  height: 16rem;
+  width: 18rem;
+  height: 18rem;
 
   position: relative;
 
