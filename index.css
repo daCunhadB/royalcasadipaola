@@ -121,7 +121,7 @@ Links
 */
 #links {
   
-  padding: 4rem;
+  padding: 2rem;
   align-items: cover;
   justify-content: cover;
   display: inline-flex;
@@ -129,7 +129,7 @@ Links
 }
 
 #links a {
-  object-fit: cover;
+  object-fit: inline;
   display: flex;
   position: relative;
   width: 12rem;
@@ -163,23 +163,25 @@ Links
 #links2 {
   padding: 1rem;
   gap: 1rem;
-  display: block;
+  display: inline-flex;
 }
 
 #links2 a {
-  display: block;
-  width: 16rem;
-  height: 16rem;
+  display: inline-flex;
+  width: 32rem;
+  height: 32rem;
+
+  position: relative;
 
   overflow: hidden;
   border-radius: 50%;
   border: 4px solid var(--stroke-color);
-  align-items: center;
-  justify-content: center;
+  align-items: cover;
+  justify-content: cover;
   -webkit-backdrop-filter: blur(0.25rem);
   backdrop-filter: blur(0.25rem);
   text-decoration: none;
-  font-size: small;
+  font-size: medium;
   font-weight: 400;
   transition: --body-bg 1.4s;
 }
